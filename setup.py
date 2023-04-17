@@ -104,11 +104,11 @@ class cmake_build(build):
         build.run(self)
 
 setup(
-        name = "pymesh2",
+        name = "pymesh2_jlh",
         description = "Mesh Processing for Python",
         version = __version__,
-        author = "Qingnan Zhou",
-        author_email = "qnzhou@gmail.com",
+        author = "Jonathan Hodges",
+        author_email = "johodges@vt.edu",
         license = "MPL",
         zip_safe = False,
         package_dir = {"": "python"},
@@ -195,7 +195,7 @@ setup(
             "scripts/uv.py",
             "scripts/voxelize.py",
             ],
-        url = "https://github.com/qnzhou/PyMesh",
-        download_url="https://github.com/qnzhou/PyMesh",
+        url = "https://github.com/johodges/PyMesh",
+        download_url="https://github.com/johodges/PyMesh",
         distclass=BinaryDistribution,
         )
